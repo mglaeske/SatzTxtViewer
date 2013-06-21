@@ -24,13 +24,11 @@ public class SatzTxtReader {
     private static int argn = 0;
 
     private final String satzTxtFileName;
-    private boolean debug = false;
     private SatzTxt satzTxt;
 
     public static void main(String[] arguments) {
 
         String fileName = null;
-        boolean debug = false;
         
         // ----------------------------------------------------------------------
         // Kommandozeilenargumente ermitteln
@@ -43,7 +41,7 @@ public class SatzTxtReader {
                fileName = getArg("-f");
            }
            else if (arg.equals("-d")) {
-              debug = true;
+              //debug = true;
            }
            else if (arg.equals("-?")) {
               usage("SatzTxtReader");
