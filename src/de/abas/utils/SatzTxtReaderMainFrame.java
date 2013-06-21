@@ -9,7 +9,8 @@
  *
  *---------------------------------------------------------------------------*/
 
-package de.abas.print;
+package de.abas.utils;
+
 
 import java.awt.BorderLayout;
 import java.awt.Color;

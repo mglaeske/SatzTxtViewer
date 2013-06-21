@@ -9,12 +9,13 @@
  *
  *---------------------------------------------------------------------------*/
 
-package de.abas.print;
+package de.abas.utils;
 
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.StringTokenizer;
+
 
 public class SatzTxtGroup {
     private final int groupNumber;

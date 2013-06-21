@@ -1,3 +1,4 @@
+package de.abas.utils;
 /*-----------------------------------------------------------------------------
  * Modul Name       : SatzTxt.java
  * Verwendung       : Drucken
@@ -9,7 +10,7 @@
  *
  *---------------------------------------------------------------------------*/
 
-package de.abas.print;
+
 
 
 import java.io.BufferedReader;
@@ -65,7 +66,8 @@ public class SatzTxt {
             // Letzte Gruppe noch hinzufügen
             satzTxtGroups.add(satzgruppe);
             reader.close();
-            System.out.println("anzahl gruppen=" + satzTxtGroups.size());
+            
+            normSatzTxtGroups();
         }
         catch (FileNotFoundException e) {
             e.printStackTrace();
@@ -73,5 +75,10 @@ public class SatzTxt {
         catch (IOException e) {
             e.printStackTrace();
         }
+    }
+    
+    private void normSatzTxtGroups() {
+        
+        
     }
 }
